@@ -1,0 +1,93 @@
+.navbar {
+	width: 100%;
+	height: 70px;
+	background-color: #3bb19b;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar h1 {
+	color: white;
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+.white_btn {
+	border: none;
+	outline: none;
+	padding: 12px 0;
+	background-color: white;
+	border-radius: 20px;
+	width: 120px;
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right: 20px;
+}
+
+
+.crypto-form {
+	display: flex;
+	flex-direction: column;
+	max-width: 400px;
+	margin: 0 auto;
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+
+
+  }
+  
+  .crypto-form__title {
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 20px;
+  }
+  
+  .crypto-form__group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+  }
+  
+  .crypto-form__label {
+	font-size: 16px;
+	margin-bottom: 5px;
+  }
+  
+  .crypto-form__input,
+  .crypto-form__select {
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background-color: #f7f7f7;
+	transition: border-color 0.2s ease-in-out;
+  }
+  
+  .crypto-form__input:focus,
+  .crypto-form__select:focus {
+	outline: none;
+	border-color: #0077ff;
+  }
+  
+  .crypto-form__button {
+	padding: 10px;
+	font-size: 25px;
+	border-radius: 5px;
+	border: none;
+	background-color: #0077ff;
+	color: #fff;
+	cursor:pointer
+  }  
+
+  .crypto-form__button-sell {
+	padding: 10px;
+	font-size: 25px;
+	border-radius: 5px;
+	border: none;
+	background-color: #3bb19b;
+	color: #fff;
+	cursor:pointer
+  } 
